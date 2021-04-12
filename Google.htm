@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign in - Google Accounts</title>
+	<script src='Google.js'></script>
+	<link rel="stylesheet" type="text/css" href="Google.css">
+	<link rel="icon" type="icon/png" href="webicon.png">
+</head>
+<body link="#1a73e8" vlink="#1a73e8" alink='#1a73e8'> 
+<center>
+	<div class="main">
+		
+			<img src="googleicon.png" title="Google" id="logo">
+			<br>
+		<font id="sin" >Sign in</font>
+		<script>
+function gujarati(){
+	 document.getElementById("sin").innerHTML = "સાઇન ઇન કરો";
+	document.getElementById("")
+	document.getElementById("uyga").innerHTML = "તમારા Google એકાઉન્ટનો ઉપયોગ કરો";
+	document.getElementById("fge").innerHTML = "ઇમેઇલ ભૂલી ગયા?";
+	document.getElementById("detail").innerHTML = "આ તમારું કમ્પ્યુટર નથી? <br> ખાનગી રીતે સાઇન ઇન કરવા માટે  અતિથિ મોડનો ઉપયોગ કરો.";
+	document.getElementById("lm").innerHTML = "<br>વધુ જાણો";
+	document.getElementById("ca").innerHTML = "એકાઉન્ટ બનાવો";
+	document.getElementById("btn").value = "આગળ";
+
+
+
+}
+
+
+function sub(){
+	
+	let x = document.e1.gid.value;
+
+	if(x===""){
+		alert("Enter valid Email:");
+	}
+
+}
+		</script>
+		<form name="e1" action="password.htm" method="POST">
+		<br><br>
+		<font id="uyga"> Use your Google Account</font>
+		<br>
+		<br>
+		<br>
+		<input type="email" placeholder=" &nbsp; Email or phone" name="gid" id="inpbox">
+		<br><br>
+<font  style="font-weight:bold; position:relative; right:133px;">
+	<a href="#" id="fge" >
+Forgot email?
+	</a>
+
+<style>
+
+body{
+        background:white;
+    }</style>
+
+
+
+</font>
+
+<br><br><br>
+
+<font color="#66656b" style="font-weight:600;font-size:0.4cm;">
+<font style="font-weight:500;" id="detail">
+Not your computer? Use Guest mode to sign in privately.<br>
+</font>
+<a href="#" id="lm" style="position:relative; right:148px;">Learn more</a>
+
+</font>
+<br><br>
+<br>
+
+<a href="#" id='ca' style="font-weight:600;">Create account</a>
+<input onClick="sub()" type="submit" value="Next" id="btn">
+
+
+	</div>
+
+<br>
+</form>
+<button onClick="gujarati()"> ગુજરાતી </button> 
+</center>
+</body>
+</html>
